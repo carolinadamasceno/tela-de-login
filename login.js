@@ -6,7 +6,7 @@ function login() {
     var inputPassword = document.getElementById('password').value;
     var password = inputPassword;
 
-    if (nickname === 'carolinadamasceno' && password === '123456') {
+    if (nickname === 'usuarioteste' && password === '123456') {
         document.getElementById('status').innerHTML = 'Login bem-sucedido!';
     } else {
         document.getElementById('status').innerHTML = 'Login não realizado.';
