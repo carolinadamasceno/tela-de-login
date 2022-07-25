@@ -1,0 +1,49 @@
+    body {
+        margin: 0%;
+    }
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box {
+        /* Especificação de tamanho da caixa */
+        width: 300px;
+        height: 300px;
+        /* Cor do plano de fundo */
+        background-color: rgb(34, 30, 61);
+        /* Formato da borda */
+        border-radius: 20%;
+        /* Sombreado na caixa */
+        box-shadow: 5px 1px darkslateblue;
+        /*Alinhamento texto*/
+        text-align: center;
+    }
+    
+    .content {
+        width: 50%;
+        margin: 0px auto;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #dadosUsuario,
+    p {
+        color: #fff;
+    }
+    
+    #login {
+        width: 50%;
+        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
+    }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script type="text/javascript" src="login.js"></script>
+    <title>Faça o seu login</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+
+            <div class="content">
+
+                <form action="" method="post" id="dadosUsuario">
+
+                    <br><br><br><br>
+
+                    <fieldset>
+
+                        <legend id="iniciarSessao">INICIAR SESSÃO</legend>
+                        <label for="nickname">Insira seu usuário:</label>
+                        <input type="text" id="nickname" autofocus>
+
+                        <br>
+
+                        <label for="password">Insira a sua senha:</label>
+                        <input type="password" id="password">
+
+                    </fieldset>
+
+                </form>
+
+                <br>
+
+            </div>
+
+            <br>
+
+            <button type="button" id="login" onclick="login()">Fazer login</button>
+            <p id="status"></p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
